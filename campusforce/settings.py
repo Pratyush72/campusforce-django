@@ -9,7 +9,13 @@ SECRET_KEY = 'replace-this-with-a-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['campusforces.in', 'www.campusforces.in', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = [
+    'campusforces.in',           # Tumhara custom domain
+    'www.campusforces.in',       # Custom domain with www
+    'campusforce-django.onrender.com',  # Render ka default domain
+    '127.0.0.1',                 # Localhost (testing ke liye)
+    'localhost'                  # Localhost alternate
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',

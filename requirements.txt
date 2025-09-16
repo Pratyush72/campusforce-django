@@ -6,9 +6,11 @@ charset-normalizer==3.4.2
 cssselect2==0.8.0
 Django==5.2.4
 fonttools==4.59.0
+gunicorn==23.0.0
 idna==3.10
 mysql-connector-python==9.3.0
 mysqlclient==2.2.7
+packaging==25.0
 pillow==11.3.0
 py==1.11.0
 pycparser==2.22

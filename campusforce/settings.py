@@ -9,7 +9,7 @@ SECRET_KEY = 'replace-this-with-a-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['campusforces.in', 'www.campusforces.in', '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
